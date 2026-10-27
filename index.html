@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pizzeria Le QG · Pizza napolitaine à Santa-Lucia-di-Moriani (Haute-Corse)</title>
+  <meta name="description" content="Pizzeria Le QG à Ponticchio, Santa-Lucia-di-Moriani : pizza napolitaine avec l'accent corse depuis 2006. Tous les soirs, sur place, terrasse, à emporter. Réservation en ligne, 06 27 21 76 05.">
+  <!-- Maquette de démonstration : ne pas indexer -->
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#1d1714">
+  <link rel="icon" href="images/logo-qg.png">
+  <link rel="preload" href="fonts/fraunces-600.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add('js');</script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Pizzeria Le QG",
+    "description": "Pizzeria napolitaine avec une touche corse, depuis 2006. Siège de l'École Méditerranéenne de Pizza.",
+    "image": "images/pizza-figues.jpg",
+    "logo": "images/logo-qg.png",
+    "telephone": "+33627217605",
+    "address": { "@type": "PostalAddress", "streetAddress": "Ponticchio", "postalCode": "20230", "addressLocality": "Santa-Lucia-di-Moriani", "addressRegion": "Haute-Corse", "addressCountry": "FR" },
+    "geo": { "@type": "GeoCoordinates", "latitude": 42.39253, "longitude": 9.53032 },
+    "servesCuisine": ["Pizza napolitaine", "Italienne", "Corse"],
+    "priceRange": "12 € à 17 € la pizza",
+    "acceptsReservations": "https://www.ripastu.fr/reserver/le-qg",
+    "hasMenu": "https://www.ripastu.fr/le-qg",
+    "paymentAccepted": "Carte bancaire, espèces",
+    "foundingDate": "2006",
+    "sameAs": ["https://www.facebook.com/leqgpizzeria", "https://www.instagram.com/leqg_pizzeria/", "https://www.tiktok.com/@pizzerialeqg"]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#contenu">Aller au contenu</a>
+  <p class="demo-strip">Maquette de démonstration · site non officiel</p>
+
+  <header class="header">
+    <a class="brand" href="#top" aria-label="Pizzeria Le QG, retour en haut">
+      <picture><source srcset="images/logo-qg.webp" type="image/webp"><img src="images/logo-qg.png" alt="" width="360" height="334"></picture>
+    </a>
+    <button class="burger" type="button" aria-expanded="false" aria-controls="nav" aria-label="Ouvrir le menu"><span></span></button>
+    <nav class="nav" id="nav" aria-label="Menu principal">
+      <a href="#carte">La carte</a>
+      <a href="#histoire">Le QG</a>
+      <a href="#ecole">L'école</a>
+      <a href="#infos">Horaires &amp; accès</a>
+      <a class="nav-cta" href="https://www.ripastu.fr/reserver/le-qg" rel="noopener">Réserver</a>
+    </nav>
+  </header>
+
+  <main id="contenu">
+    <section class="hero" id="top">
+      <div class="hero-text">
+        <p class="kicker">Pizzeria napolitaine · Santa‑Lucia‑di‑Moriani</p>
+        <h1>La pizza napolitaine, <em>avec l'accent corse</em></h1>
+        <p class="lead">Les codes de la pizza de Naples, sublimés par des produits corses. Depuis 2006 à Ponticchio, tous les soirs : sur place, en terrasse ou à emporter.</p>
+        <div class="hero-actions">
+          <a class="btn btn-red" href="https://www.ripastu.fr/reserver/le-qg" rel="noopener">Réserver une table</a>
+          <a class="btn btn-line" href="tel:+33627217605"><span aria-hidden="true">☎</span> 06 27 21 76 05</a>
+        </div>
+        <p class="rating"><span class="stars" aria-hidden="true">★★★★★</span> <b>4,7 / 5</b> sur Google · 697 avis <small>(note affichée sur la carte en ligne du QG, octobre 2026)</small></p>
+      </div>
+      <figure class="hero-media">
+        <picture><source srcset="images/pizza-figues.webp" type="image/webp"><img src="images/pizza-figues.jpg" alt="Pizza napolitaine à la croûte gonflée et tachetée, garnie de tomates, figues et basilic" width="800" height="1200" fetchpriority="high"></picture>
+        <figcaption>© Pizzeria Le QG</figcaption>
+      </figure>
+    </section>
+
+    <ul class="quick" aria-label="En bref">
+      <li><b>Tous les soirs</b><span>horaires exacts à confirmer</span></li>
+      <li><b>Sur place &amp; terrasse</b><span>salle intérieure ou terrasse</span></li>
+      <li><b>À emporter</b><span>livraison locale selon la période</span></li>
+    </ul>
+
+    <section class="carte" id="carte" aria-labelledby="carte-titre">
+      <div class="section-head">
+        <p class="kicker">La carte</p>
+        <h2 id="carte-titre">23 pizzas, <em>de la Margherita à la Tartufo</em></h2>
+      </div>
+
+      <div class="tabs" role="tablist" aria-label="Rubriques de la carte">
+        <button type="button" role="tab" id="t-rouges" aria-controls="p-rouges" aria-selected="true">Base tomate <span>11</span></button>
+        <button type="button" role="tab" id="t-blanches" aria-controls="p-blanches" aria-selected="false" tabindex="-1">Base blanche <span>12</span></button>
+        <button type="button" role="tab" id="t-entrees" aria-controls="p-entrees" aria-selected="false" tabindex="-1">Entrées <span>9</span></button>
+        <button type="button" role="tab" id="t-desserts" aria-controls="p-desserts" aria-selected="false" tabindex="-1">Desserts <span>7</span></button>
+      </div>
+
+      <div class="panel" id="p-rouges" role="tabpanel" aria-labelledby="t-rouges" tabindex="0">
+        <h3 class="panel-title">Pizzas, base tomate</h3>
+        <ul class="dishes">
+          <li><b>Margherita</b><span class="price">12 €</span><p>Sauce tomate, fior di latte, parmesan, basilic frais</p></li>
+          <li><b>Rossa</b><span class="price">13,50 €</span><p>Sauce tomate, jambon blanc, champignons de Paris, fior di latte, basilic frais</p></li>
+          <li><b>Provola e peppe</b><span class="price">14 €</span><p>Provola fumée d'Agerola, sauce tomate, poivre et basilic</p></li>
+          <li><b>Napoletana</b><span class="price">14 €</span><p>Sauce tomate, anchois, olives taggiasche, câpres, origan, basilic frais</p></li>
+          <li><b>Parmigiana</b><span class="price">14 €</span><p>Sauce tomate, aubergines, parmigiano AOP, basilic frais, fior di latte</p></li>
+          <li><b>Diavola <i class="tag">Épicée</i></b><span class="price">15 €</span><p>Sauce tomate, salami piquant, peperoncino, parmigiano AOP, fior di latte, basilic frais</p></li>
+          <li><b>Calzone</b><span class="price">15 €</span><p>Sauce tomate, jambon, champignons, œuf, fior di latte</p></li>
+          <li><b>Bolognese</b><span class="price">16,50 €</span><p>Bolognaise, ricotta, persil, fior di latte, parmigiano AOP</p></li>
+          <li><b>Corsica</b><span class="price">16,50 €</span><p>Sauce tomate, tomme corse, lonzu de la salameria de Belgodère, stracciatella, confiture de figues corses, noisettes grillées, basilic frais</p></li>
+          <li><b>Corso napoletano</b><span class="price">16,50 €</span><p>Saucisse corse AOP, ricotta, sauce tomate, poivre, fior di latte, parmigiano AOP, persil</p></li>
+          <li><b>Tonno</b><span class="price">16,50 €</span><p>Sauce tomate, gorgonzola, oignons, filet de thon, fior di latte, persil, noix</p></li>
+        </ul>
+      </div>
+
+      <div class="panel" id="p-blanches" role="tabpanel" aria-labelledby="t-blanches" tabindex="0">
+        <h3 class="panel-title">Pizzas, base crème, pesto ou velouté</h3>
+        <ul class="dishes">
+          <li><b>Bianca</b><span class="price">13,50 €</span><p>Crème de parmesan, jambon blanc, champignons de Paris, fior di latte, persil</p></li>
+          <li><b>Rosée Vintage</b><span class="price">14 €</span><p>Crème rosée, jambon blanc, champignons de Paris, emmental grand cru, olives taggiasche</p></li>
+          <li><b>Nerano</b><span class="price">15 €</span><p>Crème de parmesan, courgettes, pancetta, oignons, fior di latte, pomodorini</p></li>
+          <li><b>Capra Mele</b><span class="price">16 €</span><p>Crème de parmesan, chèvre, miel, fior di latte, ricotta, noisettes grillées</p></li>
+          <li><b>Fighe e Noce</b><span class="price">16 €</span><p>Crème de parmesan, jambon blanc, gorgonzola, confiture de figues corses, noix, fior di latte, basilic frais</p></li>
+          <li><b>Formaggi</b><span class="price">16 €</span><p>Crème de parmesan, taleggio, gorgonzola, ricotta, provola, persil, noix</p></li>
+          <li><b>Paisana</b><span class="price">16 €</span><p>Crème de parmesan, jambon blanc, tomme corse, croquette de pomme de terre, persil</p></li>
+          <li><b>Vegeta</b><span class="price">16 €</span><p>Velouté de légumes de saison, aubergines, oignons, courgettes, scamorza fumée, persil</p></li>
+          <li><b>Pizza zucca</b><span class="price">16,50 €</span><p>Velouté de courge, pleurotes, guanciale, provola fumée, tarallo</p></li>
+          <li><b>Burrata e Pesto</b><span class="price">16,50 €</span><p>Pesto de basilic, speck, parmigiano AOP, burrata, roquette, tomates séchées</p></li>
+          <li><b>Mortadella</b><span class="price">16,50 €</span><p>Crème de parmesan, mortadelle, stracciatella, pistache, basilic frais, tomates séchées</p></li>
+          <li><b>Tartufo</b><span class="price">17 €</span><p>Salsa tartufo, champignons de Paris, stracciatella, noix, truffe râpée, persil</p></li>
+        </ul>
+      </div>
+
+      <div class="panel" id="p-entrees" role="tabpanel" aria-labelledby="t-entrees" tabindex="0">
+        <h3 class="panel-title">Entrées &amp; antipasti</h3>
+        <ul class="dishes">
+          <li><b>Arancino rosso</b><span class="price">5,50 €</span><p>Riz, sauce tomate, viande hachée de bœuf, petits pois, mozzarella</p></li>
+          <li><b>Crocchè di patata</b><span class="price">5,50 €</span><p>Pommes de terre, mozzarella fumée, œuf, parmigiano</p></li>
+          <li><b>Frittatina cacio e pepe</b><span class="price">5,50 €</span><p>Pâtes, pecorino romano, poivre noir au moulin, béchamel</p></li>
+          <li><b>Montanara Margherita-Formaggi</b><span class="price">6,50 €</span><p>Duo de pizze frites napolitaines : scamorza, taleggio, gorgonzola, ricotta, noix, persil</p></li>
+          <li><b>Montanara Anchois-Bottarga</b><span class="price">6,50 €</span><p>Duo de pizze frites : sauce tomate, anchois, stracciatella, câpres, citron / ricotta, peperoncino, poutargue</p></li>
+          <li><b>Focaccia bianca</b><span class="price">6 €</span></li>
+          <li><b>Mortadella</b><span class="price">7,50 €</span></li>
+          <li><b>Lonzu</b><span class="price">7,50 €</span></li>
+          <li><b>Stracciatella</b><span class="price">9,50 €</span></li>
+        </ul>
+      </div>
+
+      <div class="panel" id="p-desserts" role="tabpanel" aria-labelledby="t-desserts" tabindex="0">
+        <h3 class="panel-title">Desserts</h3>
+        <ul class="dishes">
+          <li><b>Affogato al caffè</b><span class="price">4 €</span></li>
+          <li><b>Fruits de saison</b><span class="price">4,50 €</span><p>Fraises bio de l'exploitation Brunini</p></li>
+          <li><b>Tiramisu Nutella</b><span class="price">7 €</span></li>
+          <li><b>Cannolo</b><span class="price">7 €</span><p>Biscuit croustillant, crème sucrée à la ricotta, pépites de chocolat et pistache</p></li>
+          <li><b>Tiramisu traditionnel au café</b><span class="price">8 €</span></li>
+          <li><b>Angioletti</b><span class="price">8 €</span><p>Beignets de pâte à pizza, Nutella, crème de pistache</p></li>
+          <li><b>Pizza Nutella</b><span class="price">8 €</span></li>
+        </ul>
+      </div>
+
+      <p class="menu-note">Carte relevée le 27 octobre 2026 sur la carte en ligne du QG, <strong>prix à confirmer</strong>. Burgers, panuozzi, tacos, salades, menu enfant, glaces artisanales, cocktails et vins : voir la <a href="https://www.ripastu.fr/le-qg" rel="noopener">carte complète avec les allergènes</a>.</p>
+    </section>
+
+    <section class="gallery" aria-label="Photos du QG">
+      <figure><picture><source srcset="images/pizza-ricotta.webp" type="image/webp"><img src="images/pizza-ricotta.jpg" alt="Pizza à la sauce tomate, ricotta et herbes, servie en terrasse" width="800" height="1000" loading="lazy"></picture><figcaption>© Pizzeria Le QG</figcaption></figure>
+      <figure><picture><source srcset="images/table-antipasti.webp" type="image/webp"><img src="images/table-antipasti.jpg" alt="Table dressée avec focaccia, croquettes, cocktail et bières" width="720" height="900" loading="lazy"></picture><figcaption>© Pizzeria Le QG</figcaption></figure>
+      <figure class="wide"><picture><source srcset="images/salle.webp" type="image/webp"><img src="images/salle.jpg" alt="La salle : banquettes rayées rouge et blanc, niches voûtées éclairées" width="1066" height="711" loading="lazy"></picture><figcaption>© Pizzeria Le QG</figcaption></figure>
+    </section>
+
+    <section class="story" id="histoire" aria-labelledby="histoire-titre">
+      <figure class="story-media">
+        <picture><source srcset="images/pizzaiolo.webp" type="image/webp"><img src="images/pizzaiolo.jpg" alt="Le fondateur du QG en veste de pizzaiolo, dans la salle" width="640" height="799" loading="lazy"></picture>
+        <figcaption>© Pizzeria Le QG</figcaption>
+      </figure>
+      <div>
+        <p class="kicker">Notre histoire</p>
+        <h2 id="histoire-titre">De la petite pizzeria à emporter <em>au QG</em></h2>
+        <p>Tout commence en 2006 à Santa-Lucia-di-Moriani, avec une petite pizzeria à emporter et une idée simple : faire les choses sérieusement. Au fil des années, le QG est devenu un lieu dédié à la pizza napolitaine traditionnelle.</p>
+        <p>Formé à Naples, le fondateur y retourne régulièrement pour perfectionner sa technique. Au QG, la pizza reste fidèle aux codes napolitains, avec une touche corse dans les produits : tomme, lonzu, figues, saucisse corse.</p>
+        <p class="signoff">È bon'appitittu !</p>
+      </div>
+    </section>
+
+    <section class="school" id="ecole" aria-labelledby="ecole-titre">
+      <picture><source srcset="images/logo-ecole.webp" type="image/webp"><img class="school-logo" src="images/logo-ecole.png" alt="Logo de l'École Méditerranéenne de Pizza" width="320" height="372" loading="lazy"></picture>
+      <div>
+        <p class="kicker">Depuis 2020</p>
+        <h2 id="ecole-titre">L'École Méditerranéenne <em>de Pizza</em></h2>
+        <p>Le QG est le siège d'un centre de formation certifié Qualiopi, ancré dans le quotidien d'une vraie pizzeria.</p>
+        <ul class="courses">
+          <li><b>Métier de pizzaiolo · 35 h</b><span>Pâte, façonnage, cuisson, organisation du poste, carte, coûts et marges.</span></li>
+          <li><b>Formation Expert · 20 h</b><span>Pour les professionnels : cadence, empâtement indirect (poolish), garnitures, présentation.</span></li>
+        </ul>
+        <p><a class="btn btn-line-dark" href="mailto:ecolemed.pizza@gmail.com">Se renseigner : ecolemed.pizza@gmail.com</a></p>
+      </div>
+    </section>
+
+    <section class="infos" id="infos" aria-labelledby="infos-titre">
+      <h2 id="infos-titre">Horaires <em>&amp; accès</em></h2>
+      <div class="info-grid">
+        <div class="info">
+          <h3>Adresse</h3>
+          <p>Ponticchio<br>20230 Santa‑Lucia‑di‑Moriani<br>Haute-Corse</p>
+          <a href="https://www.google.com/maps/dir/?api=1&amp;destination=42.39253,9.53032" rel="noopener">Itinéraire →</a>
+        </div>
+        <div class="info">
+          <h3>Horaires</h3>
+          <p>Tous les soirs<br><small>Heures d'ouverture et période de fermeture annuelle <strong>à confirmer</strong>.</small></p>
+        </div>
+        <div class="info">
+          <h3>Téléphone</h3>
+          <p><a class="big-link" href="tel:+33627217605">06 27 21 76 05</a><br><a href="https://www.ripastu.fr/reserver/le-qg" rel="noopener">Réserver en ligne →</a></p>
+        </div>
+        <div class="info">
+          <h3>Bon à savoir</h3>
+          <p>Salle et terrasse · à emporter · livraison locale selon la période <small>(à confirmer)</small><br>Carte bancaire et espèces</p>
+        </div>
+      </div>
+      <p class="socials"><a href="https://www.instagram.com/leqg_pizzeria/" rel="noopener">Instagram</a> · <a href="https://www.facebook.com/leqgpizzeria" rel="noopener">Facebook</a> · <a href="https://www.tiktok.com/@pizzerialeqg" rel="noopener">TikTok</a></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <picture><source srcset="images/logo-qg.webp" type="image/webp"><img src="images/logo-qg.png" alt="" width="120" height="111" loading="lazy"></picture>
+    <p><b>Maquette de démonstration</b>, réalisée sans l'établissement : ce n'est pas le site officiel de la Pizzeria Le QG. Photos et logos © Pizzeria Le QG, repris de son site. Carte relevée le 27 octobre 2026.</p>
+  </footer>
+
+  <nav class="mobile-bar" aria-label="Actions rapides">
+    <a href="tel:+33627217605">Appeler</a>
+    <a href="https://www.ripastu.fr/reserver/le-qg" rel="noopener">Réserver</a>
+    <a href="https://www.google.com/maps/dir/?api=1&amp;destination=42.39253,9.53032" rel="noopener">Itinéraire</a>
+  </nav>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
